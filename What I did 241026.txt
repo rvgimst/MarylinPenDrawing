@@ -1,0 +1,36 @@
+Best resolution/highest details is the
+Marylin pen-drawing 695x866.jpeg
+
+Defalt size is 70mm, so rescale 570% (factor 5.7=400mm)
+
+Printed Marylin pen-drawing 695x866.jpeg as ~30cm tall on 2 pages (do it with Paint, other tools can't do that incl Gimp)
+
+Redrew lower part of face by hand with a black fineliner on see-through paper
+
+Scanned my pen-drawing at 600 dpi (1200 dpi didn't improve much)
+
+Gimp:
+ - removed artifacts with brush
+ - fill bucket with threshold .. px. On outside of picture, but also inside larger areas. This is to improve contrast between lines (supposed black) and background (supposed white)
+ - enlarge image (scale) to 133%
+ - make BW using levels (value 160)
+ - filters->enhance->despeckle: Adaptive on, Radius 2, black level -1, white level 255
+ - export as jpg (Pen-rvg-Marylin-lower part-600dpi BW despeckled....jpg)
+evt:
+ -Filters->Edge-Detect->Sobel: Mode_Difference, opacity 70, daarna:
+ -COlors->Levels input:56 output:200 clamp 1.00
+
+Inkscape
+ - trace bitmap: mode brightness cutoff, threshold 0.60, speckles 18, smooth corners 0, optimise 0
+ - select all nodes, Path->Simplify to reduce nodes
+ - check amount of nodes: select all nodes, Object properties shows "Nodes: ~4000"
+ - select in layers only the generated path
+ - then export selection to Plain SVG:
+   (Pen-rvg-Marylin-lower part-600dpi-BW despeckled-brightness cutoff 0.6 0 0 0 simplified.svg)
+
+Although loading into Tinkercad does stil not work, the .svg CAN be loaded into PrusaSlicer :-)
+
+
+
+
+

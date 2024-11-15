@@ -1,0 +1,29 @@
+Best resolution/highest details is the
+Marylin pen-drawing 695x866.jpeg
+
+Printed Marylin pen-drawing 695x866.jpeg as ~30cm tall on 2 pages (do it with Paint, other tools can't do that incl Gimp)
+
+Redrew by hand with a black fineliner on see-through paper
+
+Scanned my pen-drawing at 600 dpi (1200 dpi didn't improve much)
+
+Gimp:
+ - make BW using levels (value ~160)
+ - filters->enhance->despeckle: Adaptive on, Radius 2, black level -1, white level 255
+ - export as png
+
+Inkscape
+ - trace bitmap: mode brightness cutoff, threshold 0.450, speckles 10, smooth corners 0, optimise 0.1
+ - select all nodes, Path->Simplify to reduce nodes
+ - check amount of nodes: select all nodes, Object properties shows "Nodes: 3963"
+ - select in layers only the generated path
+ - then export selection to Plain SVG
+
+File reduced size (compared to non-simplified version) from 3MB to 200kB with 4000nodes
+However, loading into Tinkercad does stil NOT work :-(
+Cutting the image to a smaller part with ~650 nodes worked! :-)
+
+
+
+
+

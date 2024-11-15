@@ -1,0 +1,6 @@
+26oct24
+Pen-rvg-lower part-hand traced 600dpi scan-GIMP BW despeckle 133pct-INK bri cutoff 0.6 simpl plain2
+no brim, no supports, no specified thicknes, no specified infill
+
+23oct24
+chin, 100% infill

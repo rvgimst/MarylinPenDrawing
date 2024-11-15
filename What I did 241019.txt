@@ -1,0 +1,30 @@
+Best resolution/highest details is the
+Marylin pen-drawing 695x866.jpeg
+
+Use Gimp to improve image and make fully B/W:
+-make greyscale
+	-do either Image->Mode->Greyscale or
+	-Colors->Saturation->Set scape to 0
+-sharpen image
+	-Filters->Enhance->Sharpen
+	-settings radius ~14, amount ~10, threshold 0.0
+-make B/W
+	-Color->Levels->Adjust both (B/W) input levels to a value around 170
+	-Input levels values should differ only 1 to enforce 2 colors (B/W)
+-There will be some artefacts (spickles). Clean them by painting them white
+	-paintbrush-?>
+-export to png - no compression
+
+Start InkScape
+	-Quick Setup->light background
+	-Time to draw->New document
+	-File->Open->load png file->standard settings (don't use Import. Strangely enough it doesn't place the bitmap on the canvas but on the side and much smaller...)
+	-Path->Trace bitmap. Still playing with settings. best till now: 
+	 -autotrace, filter iterations 0, error threshold 0, speckles 0, smooth corners 0, optimise 0
+	
+OR:
+-load pen-drawing 695x866.jpeg directly in InScape
+--Path->Trace bitmap. Brightness cutoff->threshold 0.654, speckles 0, smooth corners 0, Optimise 0
+
+
+
