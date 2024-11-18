@@ -1,0 +1,30 @@
+Inkscape
+--------
+-Between 26oct and 16nov24 I have been tracing by hand/mouse in Inkscape the scanned pen drawing (600dpi) on a size of 40x32cm (hxw)
+-[TODO: here the part fon how to cut the upper boundary of the drawing in Inkscape]
+-Exported lower part of hand traced vectors to Plain svg file
+
+Prusa Slicer
+------------
+-imported .svg into PS
+-reduced size overall to 90%, effectively reducing to 36x29cm (hxw)
+-thickness of print: 1mm
+-Flipped the print to have the front of the print on the print bed
+-tested (sliced), printing time 2h
+-exported to .stl
+
+Tinkercad
+---------
+-imported .stl into TC (that worked!)
+-added standoff (diam=8mm, h=20mm) with hole diam=4mm on the bottom of the print (dark/dense area)
+-exported to .stl with name extended "*-flipped-standoff.stl"
+
+Prusa Slicer
+------------
+-just a check in PS to see the printing time (2h10m), nothing else
+
+3D printer
+----------
+-sent .stl file to library printer with comment:
+ -please use highest quality/lowest layer thickness
+

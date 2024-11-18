@@ -1,7 +1,7 @@
 Best resolution/highest details is the
 Marylin pen-drawing 695x866.jpeg
 
-Defalt size is 70mm, so rescale 570% (factor 5.7=400mm)
+Default size is 70mm, so rescale 570% (factor 5.7=400mm)
 
 Printed Marylin pen-drawing 695x866.jpeg as ~30cm tall on 2 pages (do it with Paint, other tools can't do that incl Gimp)
 
