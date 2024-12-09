@@ -15,24 +15,24 @@ Inkscape
 Prusa Slicer
 ------------
 -imported .svg into PS
--reduced size overall to 90%, effectively reducing to 36x29cm (hxw)
--thickness of print: 1mm
+-reduced size to 90%, effectively reducing to 36x29cm (hxw)
+-thickness of print: 2mm
 -Flipped the print to have the front of the print on the print bed
--tested (sliced), printing time 2h
+-tested (sliced), printing time 4h
 -exported to .stl
- ->Pen-360mm digital hand trace lower part.stl
+ ->Pen-360mm digital hand trace lower part 2mm-flipped.stl
 
 Tinkercad
 ---------
 -imported .stl into TC (that worked!)
--increased height of face print to 2mm (IMPORTANT!)
--added standoff (diam=8mm, h=10mm) with hole diam=4mm on the bottom of the print (dark/dense area)
+-Check height of face print to be 2mm 
+-added standoff (diam=8mm, h=10mm) with hole diam=4mm on the lower part of the print (dark/dense area in the neck)
 -exported to .stl
  ->Pen-360mm digital hand trace lower part 2mm-flipped-standoff10.stl
 
 Prusa Slicer
 ------------
--just a check in PS to see the printing time (2h10m), nothing else
+-just a check in PS to see the printing time (4h), nothing else
 
 3D printer
 ----------
