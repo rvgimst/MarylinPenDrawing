@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="Test linecut in length-division.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.72604515"
-     inkscape:cx="535.77935"
-     inkscape:cy="431.79133"
+     inkscape:zoom="2.0535658"
+     inkscape:cx="259.30506"
+     inkscape:cy="611.86255"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <pattern
@@ -56,13 +56,12 @@
        inkscape:isstock="true"
        inkscape:label="Stripes 12 (2:1)">
       <rect
-   style="stroke:none"
-   x="0"
-   y="-0.5"
-   width="1"
-   height="2"
-   id="rect197" />
-
+         style="stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect197" />
     </pattern>
     <linearGradient
        id="swatch71"
@@ -111,6 +110,42 @@
        style="stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345"
        d="m 154.44311,236.80394 a 2,2 0 0 0 -1.11719,1.04492 l -15.7168,34.63868 a 2,2 0 0 0 0.9961,2.64648 2,2 0 0 0 2.64648,-0.99414 l 15.7168,-34.63867 a 2,2 0 0 0 -0.9961,-2.64649 2,2 0 0 0 -1.52929,-0.0508 z"
        id="path11" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;fill:#51813e;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;stroke-width:1;stroke-dasharray:none"
+       d="m 105.82617,161.48242 -69.240233,14.21094 a 2,2 0 0 0 -1.55664,2.36133 2,2 0 0 0 2.361328,1.55859 l 69.238285,-14.21289 a 2,2 0 0 0 1.55859,-2.36133 2,2 0 0 0 -2.36133,-1.55664 z"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#f5cd18;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:12.6345;stroke-opacity:1"
+       d="m 21.902958,177.41396 13.126338,0.64073 73.158204,-15.01563 16.80759,5.13947"
+       id="path12" />
+    <path
+       id="path22"
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 89.692649,172.17739 0.02532,0.0977 a 2,2 0 0 0 2.43551,1.43505 2,2 0 0 0 1.460376,-2.33732 z" />
+    <path
+       id="path31"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+       d="M 88.146558 167.15259 L 92.067765 166.34799 A 2 2 0 0 0 92.045028 166.2498 L 85.297119 140.07414 A 2 2 0 0 0 83.379407 138.57345 A 2 2 0 0 0 82.861092 138.6365 A 2 2 0 0 0 81.423971 141.07253 L 88.146558 167.15259 z " />
+    <path
+       id="path30"
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 68.791082,176.46757 -4.257104,0.87384 0.639237,0.7984 a 2.0002,2.0002 0 0 0 3.548621,-1.03507 z" />
+    <path
+       id="path29"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:12.6345;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+       d="M 68.73844 136.75238 A 2 2 0 0 0 66.794889 138.53521 L 63.722725 166.83219 L 45.929496 144.60719 A 2 2 0 0 0 43.117265 144.29662 A 2 2 0 0 0 42.806689 147.1073 L 62.987887 172.31661 L 67.244991 171.44277 L 70.771391 138.96671 A 2 2 0 0 0 68.999923 136.76375 A 2 2 0 0 0 68.73844 136.75238 z " />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:12.6345;stroke-opacity:1"
+       d="m 147.13344,129.82362 20.82018,26.00668 3.59577,-33.11282"
+       id="path24" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:12.6345;stroke-opacity:1"
+       d="m 192.87374,150.71547 -6.74766,-26.1759"
+       id="path25" />
+    <path
+       style="fill:none;stroke:#f5cd18;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:12.6345;stroke-opacity:1"
+       d="m 21.902958,177.41396 13.126338,0.64073 73.158204,-15.01563 16.80759,5.13947"
+       id="path32" />
   </g>
   <g
      inkscape:groupmode="layer"
