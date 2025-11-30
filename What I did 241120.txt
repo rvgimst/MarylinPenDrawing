@@ -8,43 +8,49 @@ Inkscape
 
 -Also 20NOV24 I have been tracing further by hand/mouse in Inkscape the left part of the face, still pen drawing (600dpi) on a size of 40x32cm (hxw)
 
+-16NOV25 Creating the cutlines
+(also see Test linecut in length-division.svg). The full design needs to be 3D printed in 3 parts: left, right, bottom parts of the face. 3 Cutlines (red & orange in the svg) have been drawn to define the 3 parts. The cutlines are drawn exactly through the middle of the boundary strokes (Let's call this the boundary edge). 
+The idea is to slice the boundary edge length in half and print them each one as part of its face part. This way when the 3 face parts are glued, the boundary edges perfectly fit together and together have the exact same width as all other triangle sides (=1mm).
+How to slice with cutlines:
+ -duplicate the cutline (you will need it multiple times)
+ -make sure cutlines are on top (object->raise to top, maybe you need to place the layer of the cutlines above the other layers in the layer dialog)
+ -select the boundary edge (this is still a stroke)
+ -path->stroke to path (this converts the stroke to a contour path)
+ -select 1 cutline and the boundary edge (which is a path now)
+ -path->division (this breaks the boundary edge in half, and removes the cutline, only works on 2 selected objects)
+Now for the strokes that overlap the boundary edge:
+ -now select ALL strokes (triangles, polygons and fill patterns) that overlap the boundary edge
+ -path->stroke to path, and WITHOUT deselecting the objects:
+ -path->Combine (don't use Union, this is for 2 objects only), you now have everything as 1 object selected
+ -add the (earlier duplicated) cutline to the selection (shift click on cutline)
+ -path->division (this breaks the overlapping path, and removes the cutline, only works on 2 selected objects)
+ -remove the cut-off parts outside the boundary
+
 Export to Plain SVG
 -Exported lower part of hand traced vectors to Plain svg file
  ->Pen-400mm digital hand trace lower part.svg
 -always export selection, otherwise the file gets very big
 
--16NOV25 Creating the cutlines
-(also see Test linecut in length-division.svg). The object needs to be 3D printed in 3 parts: left, right, bottom parts of the face. 3 Cutlines (red & orange in the svg) have been drawn to define the 3 parts. The cutlines are drawn exactly through the middle of the boundary stroke (Let's call this the boundary edge). 
-The idea is to slice the boundary edge length in half and print them each one as part of its face part. This way when the 3 fase parts are glued, the boundary edges perfectly fit together and together have the exact same width as all other triangle sides (=1mm).
-How to slice with cutlines:
- -duplicate the cutline (you will need it multiple times)
- -make sure cutlines are on top (object->raise to top)
- -select the boundary edge (this is still a stroke)
- -path->stroke to path (this converts the stroke to a contour path)
- -select 1 cutline and the boundary edge (which is a path now)
- -path->division (this breaks the boundary edge in half, and removes the cutline)
- -now select ALL strokes (triangles, polygons and fill patterns) that overlap the boundary edge
- -path->stroke to path, and WITHOUT deselecting the objects:
- -path->Combine (don't use Union, this is for 2 objects only)
- -remove the cut-off parts outside the boundary
-
 Prusa Slicer
 ------------
 -import .svg into PS
 -reduced size to 90%, effectively reducing to 36x29cm (hxw)
--thickness of print: 2mm
+-thickness of print: 2mm (make sure that X and Y are not rescaled)
 -Flipped the print to have the front of the print on the print bed
 -tested (sliced), printing time 4h
 -export to .stl
- ->Pen-360mm digital hand trace lower part 2mm-flipped.stl
+ ->Pen-360mm digital hand trace lower part 2mm-flipped.stl OR
+ ->Pen-360mm lower-2mm-mirror.stl
 
 Tinkercad
 ---------
 -import .stl into TC (that worked! Importing plain .svg from Inkscape doesn't)
+-no need to scale here anymore
 -Check height of face print to be 2mm 
 -added standoff (diam=8mm, h=10mm) with hole diam=4mm on the lower part of the print (dark/dense area in the neck)
 -exported to .stl
- ->Pen-360mm digital hand trace lower part 2mm-flipped-standoff10.stl
+ ->Pen-360mm digital hand trace lower part 2mm-flipped-standoff10.stl OR
+ ->Pen-360mm lower-2mm-mirror-standoff10mm.stl
 
 Prusa Slicer
 ------------
